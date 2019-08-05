@@ -34,4 +34,6 @@ All audio examples are enclosed in the Audio_Examples folder
 
 The ATS files used in the video walkthroughs and Audio_Examples are located in the ATS_Files folder. 
 
+UNDOCUMENTED FEATURE: Due various cv contraints such as positive-only voltage or different scales (eg Korg MS20) a min and max voltage range can be defined by two additional numberboxes for each calibration channel. 
+
 For any questions/comments please contact atsmodularproject@gmail.com
