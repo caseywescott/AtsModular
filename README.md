@@ -4,7 +4,7 @@ A Spectral Modelling Tool for Modular Synthesis
 
 Coded in SuperCollider
 
-For a description of the calibration process and modular resynthesis, please view the attached pdf version of the information titled "Modular Resynthes of Spectral Data" paper.
+For a description of the calibration process and modular resynthesis, please view the attached pdf version of the information titled "Modular Resynthesis of Spectral Data" paper.
 
 For a verbose description of the process and code with video walkthroughs and audio examples, please view the following video presentation:
 
