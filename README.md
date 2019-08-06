@@ -24,6 +24,22 @@ https://youtu.be/wrbxDqqFEhg?t=815
 4. Walkthrough of residual resynthesis by way of a modular bandpass and amplifier pair:
 https://youtu.be/wrbxDqqFEhg?t=1100
 
+
+You can also use this calibration code to precisely control speed of cassette players: 
+
+Here is the code controlling a cassette speed to make a slide guitar type sound (the sound sources on the cassette are SuperCollider):
+
+https://www.instagram.com/p/BoE3alKFhAo/
+
+In this case, I'm using KeyState.kr to change pitch diatonically and using MouseX to shorten the Lag.kr time on the pitch/cv changes . 
+
+Here is code controlling cassette speed on a recorder sample being looped and pitch changed like a mellotron, playing the intro score to Ingmar Bergman's Jungfrukällan:
+
+https://www.instagram.com/p/Bpj0ZAhlDJm/
+
+Oddly, I found the pitch tracked so well that the added pitch wavering was made with LFNoise1.
+
+
 To run the software, add the supercollider class files AtsCalibration.sc and AtsCV.sc located in the SC_Class_Files folder and recompile the SC class library. 
 
 CODE DEPENDANCY/REQUIREMENT: The calibration code accuracy in AtsCalibration.sc is improved when using Tartini, a pitch tracking plugin. If you can load the enclosed Tartini plugin, uncomment the Tartini reference in AtsCalibration.sc and comment the reference to Pitch.kr.
